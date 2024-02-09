@@ -95,7 +95,10 @@ article .h3-1{
     margin-bottom: 50px;
     margin-top: 700px;
 }
-
+article .new_list{
+    flex: 0 0 33.3%;
+    max-width: 100%;
+}
 article .new_list .news_item img{
     width: 310px;
     height: 200px;
@@ -108,50 +111,18 @@ article .new_list .news_item2 img{
     margin: 10px auto;
     align-items: center;
 }
-article .new_list1 .news_item2 img{
-    width: 310px;
-    height: 200px;
-    margin: 10px auto;
-    align-items: center;
-}
 article .new_list .news_item{
     width: 26.5%;
-    padding: 2%;
+    padding: 1%;
     float: left;
     border: 2px solid #1ba9dd;
     margin-right: 3%;
     border-radius: 15px;
     animation: animation 3s infinite linear;
-    height: 550px;
-}
-article .new_list .news_item2{
-    width: 26.5%;
-    padding: 2%;
-    float: left;
-    border: 2px solid #ff9900;
-    margin-right: 3%;
-    border-radius: 15px;
-    animation: animation 3s infinite linear;
-    height: 550px;
+    height: 570px;
 }
 article a{
     text-decoration: none;
-}
-article .new_list1 .news_item2{
-    width: 26.5%;
-    padding: 2%;
-    float: left;
-    border: 2px solid #ff9900;
-    margin-right: 3%;
-    border-radius: 15px;
-    animation: animation 3s infinite linear;
-    height: 550px;
-}
-#fixx{
-    margin-right: 0;
-    margin-left: 0;
-    float: right;
-    animation: animation 3s infinite linear;
 }
 article .new_list .news_item h4{
     font-size: 16px;
@@ -187,12 +158,6 @@ article .new_list1 .news_item1{
     margin-right: 3%;
     border-radius: 15px;
     height: 500px;   
-    animation: animation 3s infinite linear;
-}
-#fixx1{
-    margin-right: 0;
-    margin-left: 0;
-    float: right;
     animation: animation 3s infinite linear;
 }
 article .new_list1 .news_item1 h6{
