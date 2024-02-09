@@ -122,7 +122,7 @@ article .new_list .news_item{
     margin-right: 3%;
     border-radius: 15px;
     animation: animation 3s infinite linear;
-    height: 500px;
+    height: 550px;
 }
 article .new_list .news_item2{
     width: 26.5%;
@@ -132,7 +132,7 @@ article .new_list .news_item2{
     margin-right: 3%;
     border-radius: 15px;
     animation: animation 3s infinite linear;
-    height: 500px;
+    height: 550px;
 }
 article a{
     text-decoration: none;
@@ -145,7 +145,7 @@ article .new_list1 .news_item2{
     margin-right: 3%;
     border-radius: 15px;
     animation: animation 3s infinite linear;
-    height: 500px;
+    height: 550px;
 }
 #fixx{
     margin-right: 0;
@@ -255,4 +255,8 @@ footer h5{
 footer .footer_list a img{
     height: 160px;
     width: 160px;
+}
+footer .footer-list .foot-item- a{
+    border-bottom: 1px solid black;
+    text-decoration: none;
 }
