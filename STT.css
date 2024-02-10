@@ -95,15 +95,14 @@ article .h3-1{
     margin-bottom: 50px;
     margin-top: 700px;
 }
-article .new_list{
-    flex: 0 0 33.3%;
-    max-width: 100%;
+article .new_list 
+{
+    padding-left: 15px;
 }
 article .new_list .news_item img{
     width: 310px;
     height: 200px;
-    margin: 10px auto;
-    align-items: center;
+    margin: 0px auto;
 }
 article .new_list .news_item2 img{
     width: 310px;
@@ -113,24 +112,31 @@ article .new_list .news_item2 img{
 }
 article .new_list .news_item{
     width: 26.5%;
-    padding: 1%;
     float: left;
-    border: 2px solid #1ba9dd;
-    margin-right: 3%;
-    border-radius: 15px;
+    border: 5px solid #1ba9dd;
+    border-radius: 10px;
     animation: animation 3s infinite linear;
     height: 570px;
+    margin: 2%;
 }
+
 article a{
     text-decoration: none;
+    font-size: 16px;
 }
 article .new_list .news_item h4{
+    margin-top: 10px;
     font-size: 16px;
     color: #decf00;
 }
-article .new_list1 .news_item2 h6 {
+article .new_list .news_item h6 {
+    margin-top: 10px;
     font-size: 16px;
     color: #000000;
+}
+article .new_list .news_item .content
+{
+    padding-left: 2px;
 }
 @keyframes animation {
     0%{
@@ -225,3 +231,25 @@ footer .footer-list .foot-item- a{
     border-bottom: 1px solid black;
     text-decoration: none;
 }
+/* @media (max-width:991px)
+{
+
+}
+@media (max-width:767px)
+{
+    header p
+    {
+        width: 100%;
+    }
+    article .new_list
+    {
+        margin-right: 0;
+    }
+    article .new_list .news_item
+    {
+        width: 100%;
+        margin: 0;
+        margin-right: 0px;
+
+    }
+} */
