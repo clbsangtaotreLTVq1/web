@@ -94,6 +94,14 @@ article .h3-1{
     margin-bottom: 50px;
     margin-top: 700px;
 }
+article .new_list
+{
+    padding-left: 3%;
+}
+article .new_list1
+{
+    padding-left: 3%;
+}
 article .new_list .news_item img{
     width: 310px;
     height: 200px;
