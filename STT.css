@@ -56,6 +56,11 @@ nav .menu ul li a{
     font-size: 20px;
     text-decoration: none;
 }
+nav .menu ul li a:hover 
+{
+    color: #ffee00;
+    transition: all 0.3s ease;
+}
 nav .parent{
     line-height: 20px;
     float: right;
@@ -106,12 +111,14 @@ article .new_list .news_item img{
     width: 310px;
     height: 200px;
     margin: 0px auto;
+    margin-top: 16px;
 }
 article .new_list .news_item2 img{
     width: 310px;
     height: 200px;
-    margin: 10px auto;
+    margin: 0px auto;
     align-items: center;
+    margin-top: 16px;
 }
 article .new_list .news_item{
     width: 26.5%;
@@ -142,6 +149,7 @@ article .new_list .news_item h6 {
 article .new_list .news_item .content
 {
     padding-left: 2px;
+    padding-top: 2px;
 }
 @keyframes animation {
     0%{
